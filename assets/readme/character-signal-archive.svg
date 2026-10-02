@@ -1,127 +1,104 @@
 <svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
 <title id="title">Character Signal Archive</title>
-<desc id="desc">Original interface-style symbols referencing characters featured in the Avengers Doomsday fan experience without reproducing official franchise logos.</desc>
+<desc id="desc">Uniform circular badge system for characters featured in the Avengers Doomsday fan experience. The Fantastic Four card uses its classic 4-in-circle emblem; the others use original symbols in the same visual treatment.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="500"><stop stop-color="#07090B"/><stop offset="1" stop-color="#121016"/></linearGradient>
-  <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D9FFBE"/><stop offset="1" stop-color="#58C843"/></linearGradient>
-  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E3CCFF"/><stop offset="1" stop-color="#7652A6"/></linearGradient>
-  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F2F6F8"/><stop offset="1" stop-color="#6D7A82"/></linearGradient>
-  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF1A7"/><stop offset="1" stop-color="#B68A21"/></linearGradient>
   <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="2.5" result="b"/>
+    <feGaussianBlur stdDeviation="2.2" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
 </defs>
-
 <rect width="1200" height="500" rx="22" fill="url(#bg)"/>
 <rect x="24" y="24" width="1152" height="452" rx="17" stroke="#48514D"/>
-
 <text x="48" y="70" fill="#F0F3F4" font-size="30" font-family="'Arial Narrow', Impact, sans-serif" font-weight="700">CHARACTER // SIGNAL ARCHIVE</text>
-<text x="48" y="98" fill="#7D8984" font-size="16" font-family="Consolas, monospace">ORIGINAL SYMBOL SYSTEM // CHARACTER REFERENCES // NO OFFICIAL LOGOS</text>
+<text x="48" y="98" fill="#7D8984" font-size="16" font-family="Consolas, monospace">UNIFIED BADGE SYSTEM // CHARACTER REFERENCES // FAN-PROJECT INTERFACE</text>
 
-<!-- DOCTOR DOOM -->
 <g transform="translate(48 132)">
   <rect width="250" height="145" rx="16" fill="#0A110C" stroke="#48784A"/>
   <text x="18" y="30" fill="#81FF68" font-size="16" font-family="Consolas, monospace" font-weight="700">DOCTOR DOOM</text>
-  <g transform="translate(77 37)" stroke="url(#green)" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M50 3L82 18L94 54L86 94L57 120H43L14 94L6 54L18 18Z"/>
-    <path d="M29 43L43 33L57 43L71 33L79 54L67 65L72 91L50 103L28 91L33 65L21 54Z"/>
-    <path d="M40 73H60M50 64V83" opacity=".6"/>
-    <circle cx="39" cy="57" r="2.8" fill="#8CFF64" stroke="none"/><circle cx="61" cy="57" r="2.8" fill="#8CFF64" stroke="none"/>
+  <g transform="translate(73 34)">
+    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#2C7A36"/>
+    <path d="M55 19L75 29L83 52L78 78L60 95H50L32 78L27 52L35 29Z" fill="none" stroke="#F5F7F8" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M42 48L50 42L56 48L64 42L70 52L64 60L67 73L55 80L43 73L46 60L40 52Z" fill="none" stroke="#F5F7F8" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="49" cy="55" r="2.5" fill="#F5F7F8"/><circle cx="61" cy="55" r="2.5" fill="#F5F7F8"/>
   </g>
 </g>
 
-<!-- THOR -->
 <g transform="translate(314 132)">
   <rect width="250" height="145" rx="16" fill="#0C1114" stroke="#5D6D76"/>
   <text x="18" y="30" fill="#D6E3EA" font-size="16" font-family="Consolas, monospace" font-weight="700">THOR</text>
-  <g transform="translate(57 39)" fill="none" stroke="url(#steel)" stroke-linecap="round" stroke-linejoin="round">
-    <!-- heavier, more readable hammer silhouette -->
-    <path d="M24 17H112L122 28L112 54H24L14 43Z" stroke-width="7.5"/>
-    <path d="M68 54V115" stroke-width="11"/>
-    <path d="M56 114H80" stroke-width="8"/>
-    <path d="M21 17L9 6M115 17L128 5" stroke-width="4.5"/>
-    <path d="M41 11L49 2M95 11L103 2" stroke="#A7D8F3" stroke-width="3.5" opacity=".8"/>
+  <g transform="translate(73 34)">
+    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#60717A"/>
+    <path d="M29 34H76L84 42L76 58H29L22 50Z" fill="none" stroke="#F5F7F8" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M52 58V88" stroke="#F5F7F8" stroke-width="8" stroke-linecap="round"/><path d="M44 87H60" stroke="#F5F7F8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M26 31L19 24M79 31L87 23" stroke="#D6F0FF" stroke-width="3.5" stroke-linecap="round"/>
   </g>
 </g>
 
-<!-- LOKI -->
 <g transform="translate(580 132)">
   <rect width="250" height="145" rx="16" fill="#100D14" stroke="#6C548A"/>
   <text x="18" y="30" fill="#DCC9F2" font-size="16" font-family="Consolas, monospace" font-weight="700">LOKI</text>
-  <g transform="translate(61 35)" fill="none" stroke="url(#violet)" stroke-linecap="round" stroke-linejoin="round">
-    <!-- stronger helmet-and-horns geometry -->
-    <path d="M35 108C28 87 27 66 34 50C40 37 49 29 63 24C77 29 86 37 92 50C99 66 98 87 91 108" stroke-width="6.5"/>
-    <path d="M35 51C25 38 17 19 18 0C35 8 48 19 63 38" stroke-width="7"/>
-    <path d="M91 51C101 38 109 19 108 0C91 8 78 19 63 38" stroke-width="7"/>
-    <path d="M44 74C50 68 56 66 63 66C70 66 76 68 82 74" stroke-width="4.5"/>
-    <path d="M43 105C51 114 57 118 63 118C69 118 75 114 83 105" stroke-width="5"/>
-    <path d="M63 40V94" stroke-width="3.5" opacity=".75"/>
+  <g transform="translate(73 34)">
+    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#5D3D7C"/>
+    <path d="M38 83C34 68 35 52 42 43C46 37 50 34 55 32C60 34 64 37 68 43C75 52 76 68 72 83" fill="none" stroke="#F5F7F8" stroke-width="5"/>
+    <path d="M42 44C33 33 28 22 28 13C40 18 48 26 55 37" fill="none" stroke="#F5F7F8" stroke-width="5.5" stroke-linecap="round"/>
+    <path d="M68 44C77 33 82 22 82 13C70 18 62 26 55 37" fill="none" stroke="#F5F7F8" stroke-width="5.5" stroke-linecap="round"/>
+    <path d="M45 78C49 83 52 85 55 85C58 85 61 83 65 78" fill="none" stroke="#F5F7F8" stroke-width="4" stroke-linecap="round"/>
   </g>
 </g>
 
-<!-- CAPTAIN AMERICA -->
 <g transform="translate(846 132)">
   <rect width="306" height="145" rx="16" fill="#0C1115" stroke="#50636F"/>
   <text x="18" y="30" fill="#D8E0E5" font-size="16" font-family="Consolas, monospace" font-weight="700">CAPTAIN AMERICA</text>
-  <g transform="translate(95 33)" fill="none" stroke="url(#steel)" stroke-width="5">
-    <circle cx="60" cy="60" r="53"/>
-    <circle cx="60" cy="60" r="37"/>
-    <path d="M60 27L69 49L94 51L75 66L81 91L60 77L39 91L45 66L26 51L51 49Z" fill="#AEB9BF" stroke="none"/>
+  <g transform="translate(98 34)">
+    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#375D79"/>
+    <circle cx="55" cy="55" r="31" fill="none" stroke="#F5F7F8" stroke-width="5"/>
+    <path d="M55 31L62 48L80 49L66 60L71 78L55 68L39 78L44 60L30 49L48 48Z" fill="#F5F7F8"/>
   </g>
 </g>
 
-<!-- CYCLOPS -->
 <g transform="translate(48 300)">
   <rect width="250" height="145" rx="16" fill="#101014" stroke="#665176"/>
   <text x="18" y="30" fill="#D7C6E5" font-size="16" font-family="Consolas, monospace" font-weight="700">CYCLOPS</text>
-  <g transform="translate(49 50)">
-    <path d="M17 29H137" stroke="#A85EFF" stroke-width="14" stroke-linecap="round" filter="url(#softGlow)"/>
-    <path d="M24 29H130" stroke="#F1C9FF" stroke-width="3.5" stroke-linecap="round"/>
-    <path d="M0 29L20 12V46Z" fill="#7652A6"/>
-    <path d="M154 29L134 12V46Z" fill="#7652A6"/>
+  <g transform="translate(73 34)">
+    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#6C477F"/>
+    <path d="M28 55H82" stroke="#F5F7F8" stroke-width="11" stroke-linecap="round"/>
+    <path d="M31 55H79" stroke="#CF87FF" stroke-width="4" stroke-linecap="round" filter="url(#softGlow)"/>
+    <path d="M19 55L30 46V64Z" fill="#F5F7F8"/><path d="M91 55L80 46V64Z" fill="#F5F7F8"/>
   </g>
 </g>
 
-<!-- SHANG-CHI -->
 <g transform="translate(314 300)">
   <rect width="250" height="145" rx="16" fill="#10110D" stroke="#706842"/>
   <text x="18" y="30" fill="#E2D89A" font-size="16" font-family="Consolas, monospace" font-weight="700">SHANG-CHI</text>
-  <g transform="translate(50 39)" fill="none" stroke="url(#gold)" stroke-width="5.5" filter="url(#softGlow)">
-    <!-- more structured ten-ring formation -->
-    <ellipse cx="28" cy="23" rx="19" ry="7"/>
-    <ellipse cx="70" cy="18" rx="19" ry="7"/>
-    <ellipse cx="112" cy="23" rx="19" ry="7"/>
-    <ellipse cx="49" cy="52" rx="19" ry="7"/>
-    <ellipse cx="91" cy="52" rx="19" ry="7"/>
-    <ellipse cx="28" cy="81" rx="19" ry="7"/>
-    <ellipse cx="70" cy="86" rx="19" ry="7"/>
-    <ellipse cx="112" cy="81" rx="19" ry="7"/>
-    <ellipse cx="49" cy="110" rx="19" ry="7"/>
-    <ellipse cx="91" cy="110" rx="19" ry="7"/>
-    <path d="M14 22C44 0 96 0 126 22M15 82C44 104 96 104 126 82" stroke-width="2.5" opacity=".38"/>
+  <g transform="translate(73 34)">
+    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#7A6324"/>
+    <g fill="none" stroke="#F7E3A1" stroke-width="3.5">
+      <ellipse cx="39" cy="34" rx="10" ry="4"/><ellipse cx="58" cy="29" rx="10" ry="4"/><ellipse cx="74" cy="38" rx="10" ry="4"/>
+      <ellipse cx="42" cy="52" rx="10" ry="4"/><ellipse cx="67" cy="55" rx="10" ry="4"/><ellipse cx="35" cy="70" rx="10" ry="4"/>
+      <ellipse cx="55" cy="78" rx="10" ry="4"/><ellipse cx="76" cy="72" rx="10" ry="4"/><ellipse cx="45" cy="91" rx="10" ry="4"/><ellipse cx="68" cy="91" rx="10" ry="4"/>
+    </g>
   </g>
 </g>
 
-<!-- FANTASTIC FOUR — classic official 4-in-circle emblem -->
 <g transform="translate(580 300)">
   <rect width="250" height="145" rx="16" fill="#0C1115" stroke="#4D6B7C"/>
   <text x="18" y="30" fill="#C8DFEC" font-size="16" font-family="Consolas, monospace" font-weight="700">FANTASTIC FOUR</text>
-  <g transform="translate(72 36)">
-    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/>
-    <circle cx="55" cy="55" r="42" fill="#2F79A8"/>
+  <g transform="translate(73 34)">
+    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#2F79A8"/>
     <path d="M61 15H80V49H94V66H80V95H60V66H17V51L54 15H61ZM60 49V36L47 49H60Z" fill="#F5F7F8"/>
   </g>
 </g>
 
-<!-- MULTIVERSE -->
 <g transform="translate(846 300)">
   <rect width="306" height="145" rx="16" fill="#0D0C13" stroke="#6B5384"/>
   <text x="18" y="30" fill="#D9C9EC" font-size="16" font-family="Consolas, monospace" font-weight="700">MULTIVERSE BREACH</text>
-  <g transform="translate(91 36)" fill="none" stroke="url(#violet)" stroke-width="4.5">
-    <circle cx="61" cy="56" r="49"/><circle cx="61" cy="56" r="34"/><circle cx="61" cy="56" r="18"/>
-    <path d="M61 0V112M5 56H117M21 16L101 96M101 16L21 96" opacity=".65"/>
-    <path d="M61 6C79 23 89 39 89 56C89 73 79 89 61 106C43 89 33 73 33 56C33 39 43 23 61 6Z" opacity=".5"/>
+  <g transform="translate(98 34)">
+    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#5B4272"/>
+    <g fill="none" stroke="#F5F7F8">
+      <circle cx="55" cy="55" r="28" stroke-width="4"/><circle cx="55" cy="55" r="17" stroke-width="3.5"/><circle cx="55" cy="55" r="7" stroke-width="3"/>
+      <path d="M55 22V88M22 55H88M32 32L78 78M78 32L32 78" stroke-width="3" opacity=".85"/>
+    </g>
   </g>
 </g>
 </svg>
