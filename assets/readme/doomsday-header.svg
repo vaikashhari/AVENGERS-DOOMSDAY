@@ -1,0 +1,97 @@
+<svg width="1600" height="560" viewBox="0 0 1600 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Avengers Doomsday — Cinematic Scroll Experience</title>
+<desc id="desc">Original dark multiverse computer-interface artwork for the Avengers Doomsday fan experience repository.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="560" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#050609"/>
+    <stop offset=".48" stop-color="#0C1013"/>
+    <stop offset="1" stop-color="#08050D"/>
+  </linearGradient>
+  <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#E9FFB3"/>
+    <stop offset=".4" stop-color="#7BFF5A"/>
+    <stop offset="1" stop-color="#1C7D2C"/>
+  </linearGradient>
+  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#EEF3F6"/>
+    <stop offset=".45" stop-color="#8C989F"/>
+    <stop offset="1" stop-color="#2C3338"/>
+  </linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#D9B7FF"/>
+    <stop offset=".5" stop-color="#7D54B5"/>
+    <stop offset="1" stop-color="#2A1640"/>
+  </linearGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+    <path d="M48 0H0V48" stroke="#B7C0C7" stroke-opacity=".045"/>
+  </pattern>
+</defs>
+
+<rect width="1600" height="560" rx="24" fill="url(#bg)"/>
+<rect width="1600" height="560" rx="24" fill="url(#grid)"/>
+
+<g opacity=".16">
+  <circle cx="1360" cy="142" r="210" stroke="#8F59C2"/>
+  <circle cx="1360" cy="142" r="165" stroke="#6DFF64"/>
+  <circle cx="1360" cy="142" r="118" stroke="#8F59C2"/>
+  <path d="M1180 250L1540 34M1196 55L1525 260" stroke="#9A76C8"/>
+</g>
+
+<rect x="72" y="62" width="320" height="42" rx="9" fill="#0C1210" stroke="#4B9C45"/>
+<text x="93" y="90" fill="#DFFFD3" font-size="20" font-family="Consolas, monospace" font-weight="700">MULTIVERSE // CINEMATIC SYSTEM</text>
+
+<rect x="1310" y="62" width="218" height="42" rx="9" fill="#100B15" stroke="#76529C"/>
+<circle cx="1337" cy="83" r="7" fill="#8CFF64" filter="url(#glow)"/>
+<text x="1354" y="90" fill="#EEE2FF" font-size="19" font-family="Consolas, monospace" font-weight="700">EXPERIENCE ONLINE</text>
+
+<text x="72" y="190" fill="#F3F5F6" font-size="67" font-family="'Arial Narrow', Impact, sans-serif" font-weight="800" letter-spacing="2">AVENGERS: DOOMSDAY</text>
+<text x="74" y="238" fill="#AAB4B9" font-size="27" font-family="Consolas, monospace">SCROLL-DIRECTED CINEMA // WEBGL ATMOSPHERE // FRAME-ACCURATE VIDEO</text>
+
+<!-- abstract masked sovereign emblem -->
+<g transform="translate(1250 128)" filter="url(#glow)">
+  <path d="M110 8L155 30L176 77L166 139L127 183L80 183L41 139L31 77L52 30L97 8Z" fill="#0C1110" stroke="url(#steel)" stroke-width="4"/>
+  <path d="M72 58L96 40L114 58L138 40L147 76L128 92L137 136L105 154L73 136L82 92L63 76Z" fill="none" stroke="url(#green)" stroke-width="6"/>
+  <path d="M81 79L96 70L111 79M96 70V113M76 122L96 138L116 122" stroke="#E8FFE0" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="81" cy="84" r="4" fill="#8CFF64"/><circle cx="111" cy="84" r="4" fill="#8CFF64"/>
+</g>
+
+<g transform="translate(72 294)">
+  <rect width="474" height="112" rx="15" fill="#09110C" stroke="#367A39"/>
+  <text x="22" y="31" fill="#83FF69" font-size="17" font-family="Consolas, monospace">&gt; SCROLL_MASTER :: GSAP / SCROLLTRIGGER</text>
+  <text x="22" y="60" fill="#E7ECE9" font-size="17" font-family="Consolas, monospace">&gt; VIDEO_SCRUB :: ALL-INTRA / SYNC SEEK</text>
+  <text x="22" y="89" fill="#E7ECE9" font-size="17" font-family="Consolas, monospace">&gt; WEBGL_STAGE :: R3F / GLSL / THREE.JS</text>
+</g>
+
+<g transform="translate(574 294)">
+  <rect width="220" height="112" rx="15" fill="#0C1210" stroke="#49614D"/>
+  <text x="18" y="28" fill="#C9D4CD" font-size="15" font-family="Consolas, monospace">PHASE 01</text>
+  <text x="18" y="63" fill="#8DFF6B" font-size="29" font-family="'Arial Narrow', Impact, sans-serif">VOID</text>
+  <text x="18" y="88" fill="#728079" font-size="13" font-family="Consolas, monospace">INTRO / STORM / PORTAL</text>
+</g>
+<g transform="translate(814 294)">
+  <rect width="220" height="112" rx="15" fill="#101015" stroke="#695382"/>
+  <text x="18" y="28" fill="#CBC2D5" font-size="15" font-family="Consolas, monospace">PHASE 02</text>
+  <text x="18" y="63" fill="#D3BAF0" font-size="29" font-family="'Arial Narrow', Impact, sans-serif">DOOM</text>
+  <text x="18" y="88" fill="#81738E" font-size="13" font-family="Consolas, monospace">3D MODEL / ORBIT SYSTEM</text>
+</g>
+<g transform="translate(1054 294)">
+  <rect width="220" height="112" rx="15" fill="#0D1114" stroke="#4E626D"/>
+  <text x="18" y="28" fill="#CBD4D8" font-size="15" font-family="Consolas, monospace">PHASE 03</text>
+  <text x="18" y="63" fill="#EEF3F6" font-size="29" font-family="'Arial Narrow', Impact, sans-serif">STORY</text>
+  <text x="18" y="88" fill="#74848D" font-size="13" font-family="Consolas, monospace">PANELS / TIMELINE / BATTLE</text>
+</g>
+<g transform="translate(1294 294)">
+  <rect width="234" height="112" rx="15" fill="#0C1010" stroke="#466F43"/>
+  <text x="18" y="28" fill="#C9D9C9" font-size="15" font-family="Consolas, monospace">PHASE 04</text>
+  <text x="18" y="63" fill="#A9FF8A" font-size="29" font-family="'Arial Narrow', Impact, sans-serif">ENDGAME</text>
+  <text x="18" y="88" fill="#708470" font-size="13" font-family="Consolas, monospace">MCU TIMELINE / TITLE</text>
+</g>
+
+<path d="M72 461H620" stroke="#5CFF54" opacity=".34"/>
+<path d="M980 461H1528" stroke="#7A58A0" opacity=".34"/>
+<text x="72" y="510" fill="#657078" font-size="15" font-family="Consolas, monospace">NEXT.JS + REACT + TYPESCRIPT + THREE.JS + GSAP + LENIS // CLOUDFLARE PAGES</text>
+</svg>
