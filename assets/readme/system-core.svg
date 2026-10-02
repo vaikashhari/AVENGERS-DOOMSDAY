@@ -1,0 +1,57 @@
+<svg width="1200" height="470" viewBox="0 0 1200 470" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Scroll signal architecture</title>
+<desc id="desc">Diagram showing scroll position flowing through GSAP into a mutable signal bus and then into visual layers.</desc>
+<rect width="1200" height="470" rx="22" fill="#080A0C"/>
+<rect x="24" y="24" width="1152" height="422" rx="17" stroke="#46514A"/>
+<text x="48" y="70" fill="#F0F3F4" font-size="28" font-family="'Arial Narrow', Impact, sans-serif" font-weight="700">SCROLL SIGNAL ARCHITECTURE</text>
+<text x="48" y="97" fill="#7B8781" font-size="15" font-family="Consolas, monospace">ONE MASTER TIMELINE // ZERO-RENDER HOT PATH // MULTIPLE VISUAL CONSUMERS</text>
+
+<g transform="translate(58 145)">
+  <rect width="205" height="120" rx="16" fill="#0B120D" stroke="#4C8B4D"/>
+  <text x="20" y="34" fill="#83FF6A" font-size="15" font-family="Consolas, monospace">INPUT</text>
+  <text x="20" y="72" fill="#F3F6F4" font-size="26" font-family="Georgia, serif" font-weight="700">SCROLL</text>
+  <text x="20" y="98" fill="#718078" font-size="13" font-family="Consolas, monospace">LENIS / NATIVE POSITION</text>
+</g>
+
+<path d="M270 205H350" stroke="#71FF5B" stroke-width="3"/>
+<path d="M339 197L350 205L339 213" stroke="#71FF5B" stroke-width="3" fill="none"/>
+
+<g transform="translate(360 145)">
+  <rect width="220" height="120" rx="16" fill="#101213" stroke="#58656C"/>
+  <text x="20" y="34" fill="#C6D0D5" font-size="15" font-family="Consolas, monospace">DIRECTOR</text>
+  <text x="20" y="72" fill="#F3F5F6" font-size="26" font-family="Georgia, serif" font-weight="700">GSAP</text>
+  <text x="20" y="98" fill="#738088" font-size="13" font-family="Consolas, monospace">SCROLLTRIGGER MASTER TL</text>
+</g>
+
+<path d="M588 205H668" stroke="#AAB4B9" stroke-width="3"/>
+<path d="M657 197L668 205L657 213" stroke="#AAB4B9" stroke-width="3" fill="none"/>
+
+<g transform="translate(678 145)">
+  <rect width="220" height="120" rx="16" fill="#100D14" stroke="#6C548A"/>
+  <text x="20" y="34" fill="#D6C1F0" font-size="15" font-family="Consolas, monospace">STATE BUS</text>
+  <text x="20" y="72" fill="#F6EFFC" font-size="24" font-family="Georgia, serif" font-weight="700">SIGNALS</text>
+  <text x="20" y="98" fill="#776A84" font-size="13" font-family="Consolas, monospace">MUTABLE / NO RE-RENDER</text>
+</g>
+
+<path d="M906 205H980" stroke="#9C72CA" stroke-width="3"/>
+<path d="M969 197L980 205L969 213" stroke="#9C72CA" stroke-width="3" fill="none"/>
+
+<g transform="translate(990 114)">
+  <rect width="160" height="54" rx="12" fill="#0B120D" stroke="#4C8B4D"/>
+  <text x="16" y="33" fill="#BDFEAF" font-size="15" font-family="Consolas, monospace">WEBGL / R3F</text>
+</g>
+<g transform="translate(990 178)">
+  <rect width="160" height="54" rx="12" fill="#0D1114" stroke="#58656C"/>
+  <text x="16" y="33" fill="#DDE4E8" font-size="15" font-family="Consolas, monospace">DOM VIDEO</text>
+</g>
+<g transform="translate(990 242)">
+  <rect width="160" height="54" rx="12" fill="#100D14" stroke="#6C548A"/>
+  <text x="16" y="33" fill="#E0CFF3" font-size="15" font-family="Consolas, monospace">UI / OVERLAYS</text>
+</g>
+
+<g transform="translate(58 324)">
+  <rect width="1092" height="86" rx="15" fill="#0B0E10" stroke="#30383C"/>
+  <text x="20" y="31" fill="#8C989E" font-size="15" font-family="Consolas, monospace">PERFORMANCE PATH</text>
+  <text x="20" y="59" fill="#DCE2E5" font-size="15" font-family="Consolas, monospace">ALL-INTRA VIDEO • DECODER PRIMING • ADAPTIVE DPR • SECTION-GATED PLAYBACK • ADDITIVE FX • PREFERS-REDUCED-MOTION</text>
+</g>
+</svg>
