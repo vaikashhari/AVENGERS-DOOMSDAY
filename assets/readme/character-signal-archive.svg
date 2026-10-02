@@ -103,13 +103,14 @@
   </g>
 </g>
 
-<!-- FANTASTIC FOUR -->
+<!-- FANTASTIC FOUR — classic official 4-in-circle emblem -->
 <g transform="translate(580 300)">
   <rect width="250" height="145" rx="16" fill="#0C1115" stroke="#4D6B7C"/>
   <text x="18" y="30" fill="#C8DFEC" font-size="16" font-family="Consolas, monospace" font-weight="700">FANTASTIC FOUR</text>
-  <g transform="translate(73 37)" fill="none" stroke="#8AB8D0" stroke-width="5.5">
-    <circle cx="54" cy="54" r="47"/>
-    <path d="M64 11V97M23 60H86M64 35L30 72H89"/>
+  <g transform="translate(72 36)">
+    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/>
+    <circle cx="55" cy="55" r="42" fill="#2F79A8"/>
+    <path d="M61 15H80V49H94V66H80V95H60V66H17V51L54 15H61ZM60 49V36L47 49H60Z" fill="#F5F7F8"/>
   </g>
 </g>
 
