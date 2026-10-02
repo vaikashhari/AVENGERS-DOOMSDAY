@@ -33,6 +33,20 @@ The site is organized as one continuous cinematic track: a storm-driven intro, a
   <img src="./assets/readme/multiverse-divider.svg" alt="Multiverse divider" width="100%" />
 </p>
 
+## ✦ AVENGERS // CHARACTER SIGNALS
+
+To bring more of the cinematic universe into the README, this panel adds original interface symbols for characters and forces already represented in the experience — including Doctor Doom, Thor, Loki, Captain America, Cyclops, Shang-Chi and the Fantastic Four — plus a multiverse-breach system glyph.
+
+<p align="center">
+  <img src="./assets/readme/character-signal-archive.svg" alt="Avengers character signal archive" width="100%" />
+</p>
+
+> The symbols above are custom README artwork created for this fan-project interface; they are not official franchise logos.
+
+<p align="center">
+  <img src="./assets/readme/multiverse-divider.svg" alt="Multiverse divider" width="100%" />
+</p>
+
 ## ✦ CORE // SCROLL ARCHITECTURE
 
 A single scrubbed GSAP timeline acts as the director. Scroll position feeds the master timeline, which writes into a mutable signal bus. WebGL, DOM video and overlay systems consume those values without pushing per-frame data through React state.
