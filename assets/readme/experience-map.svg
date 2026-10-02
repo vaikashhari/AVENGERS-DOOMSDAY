@@ -1,0 +1,55 @@
+<svg width="1200" height="510" viewBox="0 0 1200 510" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Cinematic experience map</title>
+<desc id="desc">Six chapters of the scroll-driven cinematic experience.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="510"><stop stop-color="#080A0C"/><stop offset="1" stop-color="#111016"/></linearGradient>
+</defs>
+<rect width="1200" height="510" rx="22" fill="url(#bg)"/>
+<rect x="24" y="24" width="1152" height="462" rx="17" stroke="#48524D"/>
+<text x="48" y="70" fill="#F0F3F4" font-size="28" font-family="'Arial Narrow', Impact, sans-serif" font-weight="700">CINEMATIC EXPERIENCE MAP</text>
+<text x="48" y="97" fill="#7D8984" font-size="15" font-family="Consolas, monospace">ONE SCROLL TRACK // SIX CHAPTERS // EVERY FRAME DERIVED FROM POSITION</text>
+
+<g transform="translate(48 132)">
+  <rect width="340" height="135" rx="15" fill="#0A110C" stroke="#437447"/>
+  <text x="18" y="28" fill="#7FFF66" font-size="15" font-family="Consolas, monospace">01 // MARVEL INTRO</text>
+  <text x="18" y="60" fill="#EEF5EF" font-size="23" font-family="Georgia, serif" font-weight="700">VOID → STORM → PORTAL</text>
+  <text x="18" y="88" fill="#9EAAA2" font-size="14" font-family="'Segoe UI', Arial">Frame-scrubbed intro and lightning atmosphere.</text>
+  <text x="18" y="112" fill="#607069" font-size="13" font-family="Consolas, monospace">VIDEO + GLSL + SCROLL</text>
+</g>
+<g transform="translate(430 132)">
+  <rect width="340" height="135" rx="15" fill="#0C1113" stroke="#4B5C65"/>
+  <text x="18" y="28" fill="#B5C6CF" font-size="15" font-family="Consolas, monospace">02 // HERO</text>
+  <text x="18" y="60" fill="#F4F6F7" font-size="23" font-family="Georgia, serif" font-weight="700">TRAILER UNDER SCROLL</text>
+  <text x="18" y="88" fill="#A7B1B6" font-size="14" font-family="'Segoe UI', Arial">Cinematic text beats and synchronous trailer seeking.</text>
+  <text x="18" y="112" fill="#68777E" font-size="13" font-family="Consolas, monospace">DOM VIDEO / CURRENTTIME SYNC</text>
+</g>
+<g transform="translate(812 132)">
+  <rect width="340" height="135" rx="15" fill="#100D14" stroke="#6C548A"/>
+  <text x="18" y="28" fill="#D6C1F0" font-size="15" font-family="Consolas, monospace">03 // DOOM SHOWCASE</text>
+  <text x="18" y="60" fill="#F5EEFC" font-size="23" font-family="Georgia, serif" font-weight="700">3D MODEL + ORBIT</text>
+  <text x="18" y="88" fill="#B1A6BD" font-size="14" font-family="'Segoe UI', Arial">Six video cards pass in front of and behind the model.</text>
+  <text x="18" y="112" fill="#766886" font-size="13" font-family="Consolas, monospace">R3F / THREE.JS / DEPTH</text>
+</g>
+
+<g transform="translate(48 294)">
+  <rect width="340" height="135" rx="15" fill="#0E1012" stroke="#59646A"/>
+  <text x="18" y="28" fill="#C9D0D4" font-size="15" font-family="Consolas, monospace">04 // STORY PANELS</text>
+  <text x="18" y="60" fill="#F1F3F4" font-size="23" font-family="Georgia, serif" font-weight="700">STACKED CHARACTER FILMS</text>
+  <text x="18" y="88" fill="#A9B0B4" font-size="14" font-family="'Segoe UI', Arial">Fullscreen poster chapters rise and layer over one another.</text>
+  <text x="18" y="112" fill="#6F787D" font-size="13" font-family="Consolas, monospace">GSAP / DOM LAYERS / ACCENTS</text>
+</g>
+<g transform="translate(430 294)">
+  <rect width="340" height="135" rx="15" fill="#0A1110" stroke="#3C7142"/>
+  <text x="18" y="28" fill="#86FF70" font-size="15" font-family="Consolas, monospace">05 // HORIZONTAL REEL</text>
+  <text x="18" y="60" fill="#F0F5F0" font-size="23" font-family="Georgia, serif" font-weight="700">SCENE TIMELINE</text>
+  <text x="18" y="88" fill="#A1ADA5" font-size="14" font-family="'Segoe UI', Arial">Vertical scroll moves the reel right-to-left with parallax.</text>
+  <text x="18" y="112" fill="#647168" font-size="13" font-family="Consolas, monospace">PINNED SECTION / FOCUS WINDOW</text>
+</g>
+<g transform="translate(812 294)">
+  <rect width="340" height="135" rx="15" fill="#111014" stroke="#725690"/>
+  <text x="18" y="28" fill="#D6C0F0" font-size="15" font-family="Consolas, monospace">06 // FINAL CINEMATIC</text>
+  <text x="18" y="60" fill="#F6F1FA" font-size="23" font-family="Georgia, serif" font-weight="700">BATTLE → SAGA → TITLE</text>
+  <text x="18" y="88" fill="#B2A8BC" font-size="14" font-family="'Segoe UI', Arial">Final battle, MCU timeline and closing title reveal.</text>
+  <text x="18" y="112" fill="#776987" font-size="13" font-family="Consolas, monospace">SCRUB / PAN / LOOP</text>
+</g>
+</svg>
