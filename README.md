@@ -1,10 +1,49 @@
-# AVENGERS: DOOMSDAY — Cinematic Scroll Experience
+<p align="center">
+  <img src="./assets/readme/doomsday-header.svg" alt="Avengers Doomsday cinematic scroll experience" width="100%" />
+</p>
 
-A fully **scroll-driven, cinematic web experience** built to feel like one continuous movie rather than a conventional website. Every video, camera move, particle, and title is choreographed to your scroll position — you don't browse pages, you *direct a trailer*.
+<p align="center">
+  <a href="https://avengers-doomsday-f28.pages.dev/">
+    <img src="https://img.shields.io/badge/ENTER_THE_EXPERIENCE-LIVE_SITE-162414?style=for-the-badge&labelColor=080B09" alt="Live experience" />
+  </a>
+  <img src="https://img.shields.io/badge/NEXT.JS-16.2-111827?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js 16.2" />
+  <img src="https://img.shields.io/badge/REACT-19.2-111827?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 19.2" />
+  <img src="https://img.shields.io/badge/THREE.JS-WEBGL-111827?style=for-the-badge&logo=threedotjs&logoColor=FFFFFF" alt="Three.js" />
+  <img src="https://img.shields.io/badge/GSAP-3.15-111827?style=for-the-badge&logo=greensock&logoColor=88CE02" alt="GSAP" />
+  <img src="https://img.shields.io/badge/LENIS-1.3-111827?style=for-the-badge&logoColor=FFFFFF" alt="Lenis" />
+</p>
 
-> **This is a non-commercial, Marvel-inspired fan concept** created as an educational and portfolio showcase of creative front-end development (WebGL, scroll orchestration, video performance). It is not affiliated with, endorsed by, or sponsored by Marvel or The Walt Disney Company. All Marvel characters and trademarks belong to their respective owners.
+> A fully **scroll-directed cinematic web experience** built as a non-commercial fan concept and front-end engineering showcase. Video, WebGL atmosphere, camera motion, 3D presentation and titles are synchronized to scroll position so the page behaves more like an interactive trailer than a conventional website.
 
----
+> **Fan-project notice:** this project is not affiliated with, endorsed by, or sponsored by Marvel or The Walt Disney Company. Marvel-related characters, names and trademarks belong to their respective rights holders.
+
+<p align="center">
+  <img src="./assets/readme/multiverse-divider.svg" alt="Multiverse divider" width="100%" />
+</p>
+
+## ✦ SYSTEM // EXPERIENCE MAP
+
+The site is organized as one continuous cinematic track: a storm-driven intro, a scroll-controlled hero film, a 3D character showcase, stacked story chapters, a horizontal scene reel, and a final battle / saga / title sequence.
+
+<p align="center">
+  <img src="./assets/readme/experience-map.svg" alt="Cinematic experience map" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/readme/multiverse-divider.svg" alt="Multiverse divider" width="100%" />
+</p>
+
+## ✦ CORE // SCROLL ARCHITECTURE
+
+A single scrubbed GSAP timeline acts as the director. Scroll position feeds the master timeline, which writes into a mutable signal bus. WebGL, DOM video and overlay systems consume those values without pushing per-frame data through React state.
+
+<p align="center">
+  <img src="./assets/readme/system-core.svg" alt="Scroll signal architecture" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/readme/multiverse-divider.svg" alt="Multiverse divider" width="100%" />
+</p>
 
 ## ✦ Overview
 
@@ -196,7 +235,14 @@ npx wrangler pages deploy out --project-name avengers-doomsday
 
 ---
 
-## ✦ Credits
+## ✦ CREDITS // PROJECT
+
+<p align="center">
+  <strong>Built by Creatary Labs</strong><br />
+  <sub>Cinematic WebGL & scroll experience · 2026</sub>
+</p>
+
+### Project credits
 
 - A **Marvel-inspired fan experience** — built for **educational / portfolio** purposes only, not affiliated with Marvel Studios or Disney. All characters, names, and trailers are the property of their respective owners.
 - Video and image assets are used solely as illustrative placeholders for a non-commercial concept demo.
