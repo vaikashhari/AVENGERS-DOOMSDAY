@@ -1,0 +1,104 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Character Signal Archive</title>
+<desc id="desc">Original minimal iconography referencing characters featured in the Avengers Doomsday fan experience without reproducing official franchise logos.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="500"><stop stop-color="#07090B"/><stop offset="1" stop-color="#121016"/></linearGradient>
+  <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D9FFBE"/><stop offset="1" stop-color="#58C843"/></linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E3CCFF"/><stop offset="1" stop-color="#7652A6"/></linearGradient>
+  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F2F6F8"/><stop offset="1" stop-color="#6D7A82"/></linearGradient>
+</defs>
+<rect width="1200" height="500" rx="22" fill="url(#bg)"/>
+<rect x="24" y="24" width="1152" height="452" rx="17" stroke="#48514D"/>
+<text x="48" y="70" fill="#F0F3F4" font-size="28" font-family="'Arial Narrow', Impact, sans-serif" font-weight="700">CHARACTER // SIGNAL ARCHIVE</text>
+<text x="48" y="97" fill="#7D8984" font-size="15" font-family="Consolas, monospace">ORIGINAL SYMBOL SYSTEM // CHARACTER REFERENCES // NO OFFICIAL LOGOS</text>
+
+<!-- DOOM -->
+<g transform="translate(48 132)">
+  <rect width="250" height="145" rx="16" fill="#0A110C" stroke="#48784A"/>
+  <text x="18" y="28" fill="#81FF68" font-size="14" font-family="Consolas, monospace">DOCTOR DOOM</text>
+  <g transform="translate(78 42)" stroke="url(#green)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M47 3L77 18L88 51L81 88L54 113H40L13 88L6 51L17 18Z"/>
+    <path d="M27 42L41 33L53 42L67 33L74 52L63 62L68 86L47 98L26 86L31 62L20 52Z"/>
+    <circle cx="37" cy="55" r="2.5" fill="#8CFF64" stroke="none"/><circle cx="57" cy="55" r="2.5" fill="#8CFF64" stroke="none"/>
+  </g>
+</g>
+
+<!-- THOR -->
+<g transform="translate(314 132)">
+  <rect width="250" height="145" rx="16" fill="#0C1114" stroke="#5D6D76"/>
+  <text x="18" y="28" fill="#D6E3EA" font-size="14" font-family="Consolas, monospace">THOR</text>
+  <g transform="translate(70 43)" fill="none" stroke="url(#steel)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 18H84V54H21Z"/>
+    <path d="M53 54V109"/>
+    <path d="M42 109H64"/>
+    <path d="M8 5L20 18M97 5L84 18"/>
+  </g>
+</g>
+
+<!-- LOKI -->
+<g transform="translate(580 132)">
+  <rect width="250" height="145" rx="16" fill="#100D14" stroke="#6C548A"/>
+  <text x="18" y="28" fill="#DCC9F2" font-size="14" font-family="Consolas, monospace">LOKI</text>
+  <g transform="translate(67 42)" fill="none" stroke="url(#violet)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 99C24 62 32 39 47 28C35 20 27 8 24 -6C44 2 57 13 64 28"/>
+    <path d="M104 99C104 62 96 39 81 28C93 20 101 8 104 -6C84 2 71 13 64 28"/>
+    <path d="M43 94C50 105 57 111 64 111C71 111 78 105 85 94"/>
+  </g>
+</g>
+
+<!-- CAPTAIN -->
+<g transform="translate(846 132)">
+  <rect width="306" height="145" rx="16" fill="#0C1115" stroke="#50636F"/>
+  <text x="18" y="28" fill="#D8E0E5" font-size="14" font-family="Consolas, monospace">CAPTAIN AMERICA</text>
+  <g transform="translate(100 39)" fill="none" stroke="url(#steel)" stroke-width="5">
+    <circle cx="53" cy="53" r="48"/>
+    <circle cx="53" cy="53" r="34"/>
+    <path d="M53 22L61 43L84 44L66 58L72 80L53 67L34 80L40 58L22 44L45 43Z" fill="#AEB9BF" stroke="none"/>
+  </g>
+</g>
+
+<!-- CYCLOPS -->
+<g transform="translate(48 300)">
+  <rect width="250" height="145" rx="16" fill="#101014" stroke="#665176"/>
+  <text x="18" y="28" fill="#D7C6E5" font-size="14" font-family="Consolas, monospace">CYCLOPS</text>
+  <g transform="translate(55 52)">
+    <path d="M15 25H125" stroke="#A85EFF" stroke-width="12" stroke-linecap="round"/>
+    <path d="M21 25H119" stroke="#F1C9FF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0 25L18 10V40Z" fill="#7652A6"/>
+    <path d="M140 25L122 10V40Z" fill="#7652A6"/>
+  </g>
+</g>
+
+<!-- SHANG-CHI -->
+<g transform="translate(314 300)">
+  <rect width="250" height="145" rx="16" fill="#10110D" stroke="#706842"/>
+  <text x="18" y="28" fill="#E2D89A" font-size="14" font-family="Consolas, monospace">SHANG-CHI</text>
+  <g transform="translate(48 42)" fill="none" stroke="#D9BA54" stroke-width="5">
+    <ellipse cx="20" cy="25" rx="18" ry="7"/><ellipse cx="53" cy="19" rx="18" ry="7"/>
+    <ellipse cx="86" cy="24" rx="18" ry="7"/><ellipse cx="119" cy="18" rx="18" ry="7"/>
+    <ellipse cx="35" cy="61" rx="18" ry="7"/><ellipse cx="68" cy="67" rx="18" ry="7"/>
+    <ellipse cx="101" cy="60" rx="18" ry="7"/><ellipse cx="134" cy="66" rx="18" ry="7"/>
+    <ellipse cx="52" cy="95" rx="18" ry="7"/><ellipse cx="85" cy="99" rx="18" ry="7"/>
+  </g>
+</g>
+
+<!-- FANTASTIC FOUR -->
+<g transform="translate(580 300)">
+  <rect width="250" height="145" rx="16" fill="#0C1115" stroke="#4D6B7C"/>
+  <text x="18" y="28" fill="#C8DFEC" font-size="14" font-family="Consolas, monospace">FANTASTIC FOUR</text>
+  <g transform="translate(78 42)" fill="none" stroke="#8AB8D0" stroke-width="5">
+    <circle cx="47" cy="47" r="42"/>
+    <path d="M56 9V86M22 52H74M56 31L28 64H77"/>
+  </g>
+</g>
+
+<!-- MULTIVERSE -->
+<g transform="translate(846 300)">
+  <rect width="306" height="145" rx="16" fill="#0D0C13" stroke="#6B5384"/>
+  <text x="18" y="28" fill="#D9C9EC" font-size="14" font-family="Consolas, monospace">MULTIVERSE BREACH</text>
+  <g transform="translate(96 41)" fill="none" stroke="url(#violet)" stroke-width="4">
+    <circle cx="56" cy="51" r="43"/><circle cx="56" cy="51" r="29"/><circle cx="56" cy="51" r="15"/>
+    <path d="M56 0V102M5 51H107M20 15L92 87M92 15L20 87" opacity=".65"/>
+  </g>
+</g>
+</svg>
