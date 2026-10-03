@@ -96,13 +96,13 @@
 <g transform="translate(846 300)">
  <rect width="306" height="145" rx="16" fill="#0D1115" stroke="#59646C"/>
  <text x="18" y="30" fill="#E0E5E8" font-size="16" font-family="Consolas,monospace" font-weight="700">AVENGERS</text>
- <g transform="translate(96 32)">
-  <circle cx="58" cy="58" r="50" fill="#D6DADD"/>
-  <circle cx="58" cy="58" r="43" fill="#F4F5F6"/>
-  <circle cx="58" cy="58" r="38" fill="none" stroke="#56616A" stroke-width="5"/>
-  <path d="M28 93L50 20H67L89 93H72L67 74H47L42 93H28ZM51 59H63L57 38Z" fill="#56616A"/>
-  <path d="M64 21L99 58L84 60L69 44Z" fill="#56616A"/>
-  <path d="M79 58H102L87 72Z" fill="#56616A"/>
+ <g transform="translate(95 31)">
+  <circle cx="58" cy="58" r="51" fill="#D5D9DC"/>
+  <circle cx="58" cy="58" r="44" fill="#F2F3F4"/>
+  <circle cx="58" cy="58" r="38" fill="none" stroke="#515A60" stroke-width="5"/>
+  <path d="M27 95L49 21H67L90 95H73L67 75H47L41 95H27ZM51 60H63L57 39Z" fill="#515A60"/>
+  <path d="M64 22L100 59L84 61L69 44Z" fill="#515A60"/>
+  <path d="M79 59H103L87 73Z" fill="#515A60"/>
  </g>
 </g>
 </svg>
