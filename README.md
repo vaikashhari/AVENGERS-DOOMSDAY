@@ -35,13 +35,48 @@ The site is organized as one continuous cinematic track: a storm-driven intro, a
 
 ## ✦ AVENGERS // CHARACTER SIGNALS
 
-The character marks are now stored as a **repo-local vector panel**, so GitHub no longer depends on third-party image hosts and the grid renders consistently on desktop and mobile.
+This panel now uses the **actual character/franchise marks or official-source artwork** instead of redrawn substitutes.
 
-<p align="center">
-  <img src="./assets/readme/character-signal-archive.svg" alt="Avengers character logo archive" width="100%" />
-</p>
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://static.cdnlogo.com/logos/d/88/doctor-dooms.svg" width="112" height="112" alt="Doctor Doom logo" /><br />
+      <strong>DOCTOR DOOM</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/thor-logo-png-transparent.png" width="120" alt="Thor logo" /><br />
+      <strong>THOR</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://lumiere-a.akamaihd.net/v1/images/loki_logo_6k_fin_27647520.jpeg?region=255%2C0%2C1490%2C838" width="125" alt="Loki official logo" /><br />
+      <strong>LOKI</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Captain_America%27s_shield.svg/500px-Captain_America%27s_shield.svg.png" width="112" alt="Captain America shield" /><br />
+      <strong>CAPTAIN AMERICA</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://i0.wp.com/kleinletters.com/Blog/wp-content/uploads/2017/04/CyclopsKleinFinal.jpg?w=600&ssl=1" width="125" alt="Cyclops Marvel marketing logo" /><br />
+      <strong>CYCLOPS</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Ten_Rings_Chinese_Logo.webp/500px-Ten_Rings_Chinese_Logo.webp" width="112" alt="Ten Rings logo" /><br />
+      <strong>SHANG-CHI</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Fantastic_Four_logo.svg/500px-Fantastic_Four_logo.svg.png" width="112" alt="Fantastic Four logo" /><br />
+      <strong>FANTASTIC FOUR</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Symbol_from_Marvel%27s_The_Avengers_logo.svg/250px-Symbol_from_Marvel%27s_The_Avengers_logo.svg.png" width="112" alt="Avengers symbol" /><br />
+      <strong>AVENGERS</strong>
+    </td>
+  </tr>
+</table>
 
-> This is a non-commercial fan-project presentation. Character names, emblems, props and related franchise marks belong to their respective rights holders.
+> This is a non-commercial fan-project presentation. Character names, logos, emblems, props and related franchise marks belong to their respective rights holders.
 
 <p align="center">
   <img src="./assets/readme/multiverse-divider.svg" alt="Multiverse divider" width="100%" />
