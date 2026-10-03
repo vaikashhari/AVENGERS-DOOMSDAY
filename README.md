@@ -35,13 +35,48 @@ The site is organized as one continuous cinematic track: a storm-driven intro, a
 
 ## ✦ AVENGERS // CHARACTER SIGNALS
 
-To bring more of the cinematic universe into the README, this panel adds original interface symbols for characters and forces already represented in the experience — including Doctor Doom, Thor, Loki, Captain America, Cyclops, Shang-Chi and the Fantastic Four — plus a multiverse-breach system glyph.
+The character panel now uses recognizable franchise marks, emblems and signature objects instead of custom-drawn substitutes.
 
-<p align="center">
-  <img src="./assets/readme/character-signal-archive.svg" alt="Avengers character signal archive" width="100%" />
-</p>
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://img.toy-people.com/member/178025168679.jpg" width="110" alt="Doctor Doom emblem" /><br />
+      <strong>DOCTOR DOOM</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://toppng.com/public/uploads/preview/thor-god-mjolnir-png-jpg-transparent-mjolnir-in-comic-11563227090badgo2c7e8.png" width="110" alt="Thor Mjolnir" /><br />
+      <strong>THOR</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://toppng.com/public/uploads/preview/loki-thor-horns-thor-ragnarok-loki-helmet-11562855477yjtnn6gdt3.png" width="105" alt="Loki horned helmet" /><br />
+      <strong>LOKI</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://image.pngaaa.com/237/62237-middle.png" width="108" alt="Captain America shield" /><br />
+      <strong>CAPTAIN AMERICA</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://www.stickpng.com/assets/images/5c84fe78c115b30282adb572.png" width="120" alt="Cyclops visor" /><br />
+      <strong>CYCLOPS</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ten_Rings_Marvel_No_Text_Logo.svg/960px-Ten_Rings_Marvel_No_Text_Logo.svg.png" width="110" alt="Ten Rings emblem" /><br />
+      <strong>SHANG-CHI</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Fantastic_Four_logo.svg/960px-Fantastic_Four_logo.svg.png" width="110" alt="Fantastic Four logo" /><br />
+      <strong>FANTASTIC FOUR</strong>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://toppng.com/uploads/preview/avengers-logo-11549475712t8kuavcmbp.png" width="108" alt="Avengers emblem" /><br />
+      <strong>AVENGERS</strong>
+    </td>
+  </tr>
+</table>
 
-> The symbols above are custom README artwork created for this fan-project interface; they are not official franchise logos.
+> This is a non-commercial fan-project presentation. Character names, emblems, props and related franchise marks belong to their respective rights holders.
 
 <p align="center">
   <img src="./assets/readme/multiverse-divider.svg" alt="Multiverse divider" width="100%" />
