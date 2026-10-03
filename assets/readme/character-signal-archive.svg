@@ -86,9 +86,9 @@
  <rect width="250" height="145" rx="16" fill="#0C1115" stroke="#4D6B7C"/>
  <text x="18" y="30" fill="#CBE0EC" font-size="16" font-family="Consolas,monospace" font-weight="700">FANTASTIC FOUR</text>
  <g transform="translate(73 34)">
-  <circle cx="55" cy="55" r="49" fill="#0D1115"/>
-  <circle cx="55" cy="55" r="42" fill="none" stroke="#111820" stroke-width="5"/>
-  <path d="M61 15H80V49H94V66H80V95H60V66H17V51L54 15H61ZM60 49V36L47 49H60Z" fill="#111820"/>
+  <circle cx="55" cy="55" r="49" fill="#F5F7F8"/>
+  <circle cx="55" cy="55" r="42" fill="#2F79A8"/>
+  <path d="M61 15H80V49H94V66H80V95H60V66H17V51L54 15H61ZM60 49V36L47 49H60Z" fill="#F5F7F8"/>
  </g>
 </g>
 
@@ -96,12 +96,13 @@
 <g transform="translate(846 300)">
  <rect width="306" height="145" rx="16" fill="#0D1115" stroke="#59646C"/>
  <text x="18" y="30" fill="#E0E5E8" font-size="16" font-family="Consolas,monospace" font-weight="700">AVENGERS</text>
- <g transform="translate(98 34)">
-  <circle cx="55" cy="55" r="49" fill="#D5D9DC"/>
-  <circle cx="55" cy="55" r="42" fill="#F2F3F4"/>
-  <path d="M28 87L49 22H66L84 87H69L64 69H45L40 87H28ZM49 56H61L55 36Z" fill="#515A60"/>
-  <path d="M63 19L92 55L78 57L67 44Z" fill="#515A60"/>
-  <path d="M74 55H96L83 68Z" fill="#515A60"/>
+ <g transform="translate(96 32)">
+  <circle cx="58" cy="58" r="50" fill="#D6DADD"/>
+  <circle cx="58" cy="58" r="43" fill="#F4F5F6"/>
+  <circle cx="58" cy="58" r="38" fill="none" stroke="#56616A" stroke-width="5"/>
+  <path d="M28 93L50 20H67L89 93H72L67 74H47L42 93H28ZM51 59H63L57 38Z" fill="#56616A"/>
+  <path d="M64 21L99 58L84 60L69 44Z" fill="#56616A"/>
+  <path d="M79 58H102L87 72Z" fill="#56616A"/>
  </g>
 </g>
 </svg>
