@@ -58,7 +58,7 @@ The character panel now uses recognizable franchise marks, emblems and signature
   </tr>
   <tr>
     <td align="center" width="25%">
-      <img src="https://www.stickpng.com/assets/images/5c84fe78c115b30282adb572.png" width="120" alt="Cyclops visor" /><br />
+      <img src="https://clipground.com/images/cyclops-visor-png-21.png" width="120" alt="Cyclops visor" /><br />
       <strong>CYCLOPS</strong>
     </td>
     <td align="center" width="25%">
@@ -66,7 +66,7 @@ The character panel now uses recognizable franchise marks, emblems and signature
       <strong>SHANG-CHI</strong>
     </td>
     <td align="center" width="25%">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Fantastic_Four_logo.svg/960px-Fantastic_Four_logo.svg.png" width="110" alt="Fantastic Four logo" /><br />
+      <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Fantastic_Four_logo.svg" width="110" alt="Fantastic Four logo" /><br />
       <strong>FANTASTIC FOUR</strong>
     </td>
     <td align="center" width="25%">
