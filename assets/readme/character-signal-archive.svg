@@ -1,104 +1,107 @@
 <svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-<title id="title">Character Signal Archive</title>
-<desc id="desc">Uniform circular badge system for characters featured in the Avengers Doomsday fan experience. The Fantastic Four card uses its classic 4-in-circle emblem; the others use original symbols in the same visual treatment.</desc>
+<title id="title">Avengers Character Logo Archive</title>
+<desc id="desc">Clean local vector emblems for Doctor Doom, Thor, Loki, Captain America, Cyclops, Shang-Chi, Fantastic Four and Avengers, designed for reliable GitHub README rendering.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="500"><stop stop-color="#07090B"/><stop offset="1" stop-color="#121016"/></linearGradient>
-  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="2.2" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="500"><stop stop-color="#080A0C"/><stop offset="1" stop-color="#101218"/></linearGradient>
+  <filter id="g" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <rect width="1200" height="500" rx="22" fill="url(#bg)"/>
-<rect x="24" y="24" width="1152" height="452" rx="17" stroke="#48514D"/>
-<text x="48" y="70" fill="#F0F3F4" font-size="30" font-family="'Arial Narrow', Impact, sans-serif" font-weight="700">CHARACTER // SIGNAL ARCHIVE</text>
-<text x="48" y="98" fill="#7D8984" font-size="16" font-family="Consolas, monospace">UNIFIED BADGE SYSTEM // CHARACTER REFERENCES // FAN-PROJECT INTERFACE</text>
+<rect x="24" y="24" width="1152" height="452" rx="17" stroke="#46505A"/>
+<text x="48" y="70" fill="#F3F5F6" font-size="30" font-family="'Arial Narrow',Impact,sans-serif" font-weight="700">CHARACTER // LOGO ARCHIVE</text>
+<text x="48" y="98" fill="#808A92" font-size="16" font-family="Consolas,monospace">LOCAL VECTOR ASSETS // CONSISTENT RENDERING // NO EXTERNAL HOTLINKS</text>
 
+<!-- DOCTOR DOOM -->
 <g transform="translate(48 132)">
-  <rect width="250" height="145" rx="16" fill="#0A110C" stroke="#48784A"/>
-  <text x="18" y="30" fill="#81FF68" font-size="16" font-family="Consolas, monospace" font-weight="700">DOCTOR DOOM</text>
-  <g transform="translate(73 34)">
-    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#2C7A36"/>
-    <path d="M55 19L75 29L83 52L78 78L60 95H50L32 78L27 52L35 29Z" fill="none" stroke="#F5F7F8" stroke-width="5" stroke-linejoin="round"/>
-    <path d="M42 48L50 42L56 48L64 42L70 52L64 60L67 73L55 80L43 73L46 60L40 52Z" fill="none" stroke="#F5F7F8" stroke-width="4" stroke-linejoin="round"/>
-    <circle cx="49" cy="55" r="2.5" fill="#F5F7F8"/><circle cx="61" cy="55" r="2.5" fill="#F5F7F8"/>
-  </g>
+ <rect width="250" height="145" rx="16" fill="#09110C" stroke="#355F39"/>
+ <text x="18" y="30" fill="#80D36F" font-size="16" font-family="Consolas,monospace" font-weight="700">DOCTOR DOOM</text>
+ <g transform="translate(78 39)">
+  <path d="M50 0L82 13L94 42L84 78L62 110H38L16 78L6 42L18 13Z" fill="#718A55"/>
+  <path d="M50 17L65 30L77 22L73 52L62 63L66 84L50 97L34 84L38 63L27 52L23 22L35 30Z" fill="#050806"/>
+  <path d="M38 52L47 46L50 52L53 46L62 52" stroke="#718A55" stroke-width="4" stroke-linecap="round"/>
+  <path d="M43 73H57M50 64V81" stroke="#718A55" stroke-width="3.5" stroke-linecap="round"/>
+ </g>
 </g>
 
+<!-- THOR -->
 <g transform="translate(314 132)">
-  <rect width="250" height="145" rx="16" fill="#0C1114" stroke="#5D6D76"/>
-  <text x="18" y="30" fill="#D6E3EA" font-size="16" font-family="Consolas, monospace" font-weight="700">THOR</text>
-  <g transform="translate(73 34)">
-    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#60717A"/>
-    <path d="M29 34H76L84 42L76 58H29L22 50Z" fill="none" stroke="#F5F7F8" stroke-width="6" stroke-linejoin="round"/>
-    <path d="M52 58V88" stroke="#F5F7F8" stroke-width="8" stroke-linecap="round"/><path d="M44 87H60" stroke="#F5F7F8" stroke-width="6" stroke-linecap="round"/>
-    <path d="M26 31L19 24M79 31L87 23" stroke="#D6F0FF" stroke-width="3.5" stroke-linecap="round"/>
-  </g>
+ <rect width="250" height="145" rx="16" fill="#0C1114" stroke="#55646D"/>
+ <text x="18" y="30" fill="#DCE5E9" font-size="16" font-family="Consolas,monospace" font-weight="700">THOR</text>
+ <g transform="translate(65 42)">
+  <path d="M24 10H92L103 23L94 52H24L13 39Z" fill="#B8BEC3" stroke="#E5E8EA" stroke-width="3"/>
+  <path d="M58 52V108" stroke="#8E5C3E" stroke-width="12" stroke-linecap="round"/>
+  <path d="M47 106H69" stroke="#D0D4D6" stroke-width="6" stroke-linecap="round"/>
+  <path d="M28 7L17 0M91 7L103 0" stroke="#DDEFFF" stroke-width="3" stroke-linecap="round"/>
+ </g>
 </g>
 
+<!-- LOKI -->
 <g transform="translate(580 132)">
-  <rect width="250" height="145" rx="16" fill="#100D14" stroke="#6C548A"/>
-  <text x="18" y="30" fill="#DCC9F2" font-size="16" font-family="Consolas, monospace" font-weight="700">LOKI</text>
-  <g transform="translate(73 34)">
-    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#5D3D7C"/>
-    <path d="M38 83C34 68 35 52 42 43C46 37 50 34 55 32C60 34 64 37 68 43C75 52 76 68 72 83" fill="none" stroke="#F5F7F8" stroke-width="5"/>
-    <path d="M42 44C33 33 28 22 28 13C40 18 48 26 55 37" fill="none" stroke="#F5F7F8" stroke-width="5.5" stroke-linecap="round"/>
-    <path d="M68 44C77 33 82 22 82 13C70 18 62 26 55 37" fill="none" stroke="#F5F7F8" stroke-width="5.5" stroke-linecap="round"/>
-    <path d="M45 78C49 83 52 85 55 85C58 85 61 83 65 78" fill="none" stroke="#F5F7F8" stroke-width="4" stroke-linecap="round"/>
-  </g>
+ <rect width="250" height="145" rx="16" fill="#100D14" stroke="#69517E"/>
+ <text x="18" y="30" fill="#E4D4F1" font-size="16" font-family="Consolas,monospace" font-weight="700">LOKI</text>
+ <g transform="translate(68 37)">
+  <path d="M31 91C27 71 29 54 38 43C43 37 49 34 57 32C65 34 71 37 76 43C85 54 87 71 83 91" fill="#D3AE63" stroke="#F1D798" stroke-width="3"/>
+  <path d="M38 44C26 31 20 16 20 1C37 7 49 18 57 35" fill="none" stroke="#D3AE63" stroke-width="7" stroke-linecap="round"/>
+  <path d="M76 44C88 31 94 16 94 1C77 7 65 18 57 35" fill="none" stroke="#D3AE63" stroke-width="7" stroke-linecap="round"/>
+  <path d="M43 69C48 65 52 63 57 63C62 63 66 65 71 69" stroke="#6F5A2D" stroke-width="4" stroke-linecap="round"/>
+ </g>
 </g>
 
+<!-- CAPTAIN AMERICA -->
 <g transform="translate(846 132)">
-  <rect width="306" height="145" rx="16" fill="#0C1115" stroke="#50636F"/>
-  <text x="18" y="30" fill="#D8E0E5" font-size="16" font-family="Consolas, monospace" font-weight="700">CAPTAIN AMERICA</text>
-  <g transform="translate(98 34)">
-    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#375D79"/>
-    <circle cx="55" cy="55" r="31" fill="none" stroke="#F5F7F8" stroke-width="5"/>
-    <path d="M55 31L62 48L80 49L66 60L71 78L55 68L39 78L44 60L30 49L48 48Z" fill="#F5F7F8"/>
-  </g>
+ <rect width="306" height="145" rx="16" fill="#0C1115" stroke="#50636F"/>
+ <text x="18" y="30" fill="#E0E6EA" font-size="16" font-family="Consolas,monospace" font-weight="700">CAPTAIN AMERICA</text>
+ <g transform="translate(99 34)">
+  <circle cx="55" cy="55" r="49" fill="#C8CDD0"/>
+  <circle cx="55" cy="55" r="43" fill="#B72D2D"/>
+  <circle cx="55" cy="55" r="33" fill="#F1F2F2"/>
+  <circle cx="55" cy="55" r="24" fill="#315A8A"/>
+  <path d="M55 36L61 49L76 50L65 59L69 74L55 66L41 74L45 59L34 50L49 49Z" fill="#F5F6F6"/>
+ </g>
 </g>
 
+<!-- CYCLOPS -->
 <g transform="translate(48 300)">
-  <rect width="250" height="145" rx="16" fill="#101014" stroke="#665176"/>
-  <text x="18" y="30" fill="#D7C6E5" font-size="16" font-family="Consolas, monospace" font-weight="700">CYCLOPS</text>
-  <g transform="translate(73 34)">
-    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#6C477F"/>
-    <path d="M28 55H82" stroke="#F5F7F8" stroke-width="11" stroke-linecap="round"/>
-    <path d="M31 55H79" stroke="#CF87FF" stroke-width="4" stroke-linecap="round" filter="url(#softGlow)"/>
-    <path d="M19 55L30 46V64Z" fill="#F5F7F8"/><path d="M91 55L80 46V64Z" fill="#F5F7F8"/>
-  </g>
+ <rect width="250" height="145" rx="16" fill="#111014" stroke="#685272"/>
+ <text x="18" y="30" fill="#E1D2E8" font-size="16" font-family="Consolas,monospace" font-weight="700">CYCLOPS</text>
+ <g transform="translate(53 55)">
+  <path d="M0 31L21 14V23H123V14L145 31L123 49V40H21V49Z" fill="#7F4FB2"/>
+  <rect x="22" y="26" width="101" height="10" rx="5" fill="#EE5BFF" filter="url(#g)"/>
+  <rect x="30" y="29" width="85" height="4" rx="2" fill="#FFD7FF"/>
+ </g>
 </g>
 
+<!-- SHANG-CHI -->
 <g transform="translate(314 300)">
-  <rect width="250" height="145" rx="16" fill="#10110D" stroke="#706842"/>
-  <text x="18" y="30" fill="#E2D89A" font-size="16" font-family="Consolas, monospace" font-weight="700">SHANG-CHI</text>
-  <g transform="translate(73 34)">
-    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#7A6324"/>
-    <g fill="none" stroke="#F7E3A1" stroke-width="3.5">
-      <ellipse cx="39" cy="34" rx="10" ry="4"/><ellipse cx="58" cy="29" rx="10" ry="4"/><ellipse cx="74" cy="38" rx="10" ry="4"/>
-      <ellipse cx="42" cy="52" rx="10" ry="4"/><ellipse cx="67" cy="55" rx="10" ry="4"/><ellipse cx="35" cy="70" rx="10" ry="4"/>
-      <ellipse cx="55" cy="78" rx="10" ry="4"/><ellipse cx="76" cy="72" rx="10" ry="4"/><ellipse cx="45" cy="91" rx="10" ry="4"/><ellipse cx="68" cy="91" rx="10" ry="4"/>
-    </g>
-  </g>
+ <rect width="250" height="145" rx="16" fill="#11100D" stroke="#776544"/>
+ <text x="18" y="30" fill="#E9D99D" font-size="16" font-family="Consolas,monospace" font-weight="700">SHANG-CHI</text>
+ <g transform="translate(54 44)" fill="none" stroke="#CE1724" stroke-width="5">
+  <circle cx="26" cy="21" r="18"/><circle cx="58" cy="13" r="18"/><circle cx="91" cy="19" r="18"/><circle cx="119" cy="35" r="18"/>
+  <circle cx="116" cy="68" r="18"/><circle cx="90" cy="89" r="18"/><circle cx="57" cy="94" r="18"/><circle cx="28" cy="77" r="18"/>
+  <circle cx="19" cy="49" r="18"/><circle cx="61" cy="53" r="18"/>
+ </g>
 </g>
 
+<!-- FANTASTIC FOUR -->
 <g transform="translate(580 300)">
-  <rect width="250" height="145" rx="16" fill="#0C1115" stroke="#4D6B7C"/>
-  <text x="18" y="30" fill="#C8DFEC" font-size="16" font-family="Consolas, monospace" font-weight="700">FANTASTIC FOUR</text>
-  <g transform="translate(73 34)">
-    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#2F79A8"/>
-    <path d="M61 15H80V49H94V66H80V95H60V66H17V51L54 15H61ZM60 49V36L47 49H60Z" fill="#F5F7F8"/>
-  </g>
+ <rect width="250" height="145" rx="16" fill="#0C1115" stroke="#4D6B7C"/>
+ <text x="18" y="30" fill="#CBE0EC" font-size="16" font-family="Consolas,monospace" font-weight="700">FANTASTIC FOUR</text>
+ <g transform="translate(73 34)">
+  <circle cx="55" cy="55" r="49" fill="#0D1115"/>
+  <circle cx="55" cy="55" r="42" fill="none" stroke="#111820" stroke-width="5"/>
+  <path d="M61 15H80V49H94V66H80V95H60V66H17V51L54 15H61ZM60 49V36L47 49H60Z" fill="#111820"/>
+ </g>
 </g>
 
+<!-- AVENGERS -->
 <g transform="translate(846 300)">
-  <rect width="306" height="145" rx="16" fill="#0D0C13" stroke="#6B5384"/>
-  <text x="18" y="30" fill="#D9C9EC" font-size="16" font-family="Consolas, monospace" font-weight="700">MULTIVERSE BREACH</text>
-  <g transform="translate(98 34)">
-    <circle cx="55" cy="55" r="49" fill="#F5F7F8"/><circle cx="55" cy="55" r="42" fill="#5B4272"/>
-    <g fill="none" stroke="#F5F7F8">
-      <circle cx="55" cy="55" r="28" stroke-width="4"/><circle cx="55" cy="55" r="17" stroke-width="3.5"/><circle cx="55" cy="55" r="7" stroke-width="3"/>
-      <path d="M55 22V88M22 55H88M32 32L78 78M78 32L32 78" stroke-width="3" opacity=".85"/>
-    </g>
-  </g>
+ <rect width="306" height="145" rx="16" fill="#0D1115" stroke="#59646C"/>
+ <text x="18" y="30" fill="#E0E5E8" font-size="16" font-family="Consolas,monospace" font-weight="700">AVENGERS</text>
+ <g transform="translate(98 34)">
+  <circle cx="55" cy="55" r="49" fill="#D5D9DC"/>
+  <circle cx="55" cy="55" r="42" fill="#F2F3F4"/>
+  <path d="M28 87L49 22H66L84 87H69L64 69H45L40 87H28ZM49 56H61L55 36Z" fill="#515A60"/>
+  <path d="M63 19L92 55L78 57L67 44Z" fill="#515A60"/>
+  <path d="M74 55H96L83 68Z" fill="#515A60"/>
+ </g>
 </g>
 </svg>
